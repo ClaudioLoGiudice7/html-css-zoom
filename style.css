@@ -86,3 +86,65 @@ img{
     font-size: small;
     padding: 5px;
 }
+
+footer {
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    line-height: 2.5;
+    background-color: #222222;
+    color: white;
+}
+
+.centered{
+    display: flex;
+}
+
+.fa-chevron-up {
+    line-height: 2;
+}
+
+.left-footer {
+    display: flex;
+    gap: 10px;
+    background-color: #222222;
+}
+
+.central-footer {
+    margin-left: 70px;
+    display: flex;
+    background-color: #222222;
+}
+
+footer .icons i {
+    font-size: 1.5rem;
+}
+
+.arrow {
+    line-height: 4;
+    padding: 10px 10px;
+}
+
+.left-footer>* {
+    padding: 5px 10px 0 10px;
+}
+
+.central-footer>* {
+    padding: 5px 10px 0 10px;
+}
+
+.right-footer {
+    width: 150px;
+    line-height: 3.5;
+    margin-left: 165px;
+    background-color: #4A4A4A;
+    color: red;
+}
+
+.right-footer>* {
+    padding: 10px 0 10px 0;
+}
+
+.green-logo {
+    color: #4BC800;
+}
